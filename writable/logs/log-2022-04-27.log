@@ -1,0 +1,235 @@
+CRITICAL - 2022-04-27 05:31:01 --> syntax error, unexpected variable "$data"
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\XAMPP\\htdocs...')
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-27 06:04:54 --> syntax error, unexpected variable "$data"
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\XAMPP\\htdocs...')
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-27 06:05:07 --> syntax error, unexpected variable "$data"
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\XAMPP\\htdocs...')
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-27 07:24:51 --> Undefined property: App\Controllers\Staff::$staffModel
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\app\Controllers\Staff.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\XAMPP\\htdocs...', 19)
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Staff->staff()
+#2 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-27 07:29:04 --> Undefined property: App\Controllers\Staff::$staffModel
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\app\Controllers\Staff.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\XAMPP\\htdocs...', 19)
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Staff->staff()
+#2 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-27 07:29:13 --> Undefined property: App\Controllers\Staff::$staffModel
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\app\Controllers\Staff.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\XAMPP\\htdocs...', 19)
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Staff->staff()
+#2 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-27 07:31:32 --> Undefined variable $staffs
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\app\Views\pages\staff.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\XAMPP\\htdocs...', 36)
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\XAMPP\\htdocs...')
+#2 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages\\staff', Array, true)
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\app\Controllers\Staff.php(30): view('pages\\staff', Array)
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Staff->staff()
+#6 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-27 07:56:57 --> Undefined variable $staffs
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\app\Views\pages\staff.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\XAMPP\\htdocs...', 36)
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\XAMPP\\htdocs...')
+#2 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages\\staff', Array, true)
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\app\Controllers\Staff.php(30): view('pages\\staff', Array)
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Staff->staff()
+#6 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#7 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-27 08:01:21 --> Undefined property: App\Controllers\Staff::$staffModel
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\app\Controllers\Staff.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\XAMPP\\htdocs...', 19)
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Staff->staff()
+#2 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-27 17:05:10 --> Invalid file: pages\index.php
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages\\index.php')
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages\\index', Array, true)
+#2 C:\XAMPP\htdocs\college\K3519044_UTS\app\Controllers\Staff.php(36): view('pages\\index', Array)
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Staff->index()
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-27 20:32:05 --> Cannot declare class App\Controllers\Staff, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-27 20:35:54 --> Invalid file: pages/staff.php
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/staff.php')
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/staff', Array, true)
+#2 C:\XAMPP\htdocs\college\K3519044_UTS\app\Controllers\Driver.php(34): view('pages/staff', Array)
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Driver->index()
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Driver))
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-27 20:37:44 --> Invalid file: pages/staff.php
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/staff.php')
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/staff', Array, true)
+#2 C:\XAMPP\htdocs\college\K3519044_UTS\app\Controllers\Driver.php(34): view('pages/staff', Array)
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Driver->index()
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Driver))
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-27 20:38:30 --> Invalid file: pages/staff.php
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/staff.php')
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/staff', Array, true)
+#2 C:\XAMPP\htdocs\college\K3519044_UTS\app\Controllers\Driver.php(34): view('pages/staff', Array)
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Driver->index()
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Driver))
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#8 {main}
+ERROR - 2022-04-27 20:49:28 --> Table 'ptik.utswf' doesn't exist
+CRITICAL - 2022-04-27 20:49:28 --> Table 'ptik.utswf' doesn't exist
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#6 C:\XAMPP\htdocs\college\K3519044_UTS\app\Controllers\Driver.php(28): CodeIgniter\BaseModel->paginate(5, 'staff')
+#7 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Driver->index()
+#8 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Driver))
+#9 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#12 {main}
+ERROR - 2022-04-27 20:50:00 --> Table 'utswf.utswf' doesn't exist
+CRITICAL - 2022-04-27 20:50:00 --> Table 'utswf.utswf' doesn't exist
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#6 C:\XAMPP\htdocs\college\K3519044_UTS\app\Controllers\Driver.php(28): CodeIgniter\BaseModel->paginate(5, 'staff')
+#7 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Driver->index()
+#8 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Driver))
+#9 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#12 {main}
+CRITICAL - 2022-04-27 20:50:54 --> Undefined array key "image"
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\app\Views\pages\driver.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\XAMPP\\htdocs...', 40)
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\XAMPP\\htdocs...')
+#2 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/driver', Array, true)
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\app\Controllers\Driver.php(34): view('pages/driver', Array)
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Driver->index()
+#6 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Driver))
+#7 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-27 22:03:22 --> Invalid file: layout/template.php
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#2 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages\\about', Array, true)
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\app\Controllers\Pages.php(20): view('pages\\about', Array)
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pages->about()
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-27 22:03:37 --> Invalid file: layout/template.php
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#2 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages\\product', Array, true)
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\app\Controllers\Pages.php(28): view('pages\\product', Array)
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pages->product()
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-27 22:04:16 --> Invalid file: layout/template2.php
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('layout/template...', Array, true)
+#2 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages\\home', Array, true)
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\app\Controllers\Pages.php(12): view('pages\\home', Array)
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pages->home()
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-27 22:04:28 --> Invalid file: layout/template2.php
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('layout/template...', Array, true)
+#2 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages\\home', Array, true)
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\app\Controllers\Pages.php(12): view('pages\\home', Array)
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pages->home()
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-27 22:32:06 --> Undefined property: App\Controllers\Product::$driverModel
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\app\Controllers\Product.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\XAMPP\\htdocs...', 29)
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Product->index()
+#2 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-27 22:59:20 --> Undefined variable $anggotaStaff
+#0 C:\XAMPP\htdocs\college\K3519044_UTS\app\Views\pages\product.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\XAMPP\\htdocs...', 10)
+#1 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\XAMPP\\htdocs...')
+#2 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/product', Array, true)
+#4 C:\XAMPP\htdocs\college\K3519044_UTS\app\Controllers\Product.php(33): view('pages/product', Array)
+#5 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Product->index()
+#6 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\XAMPP\htdocs\college\K3519044_UTS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\XAMPP\htdocs\college\K3519044_UTS\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\XAMPP\\htdocs...')
+#10 {main}
